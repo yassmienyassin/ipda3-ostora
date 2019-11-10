@@ -1,0 +1,303 @@
+.header-content{
+    background: #f16821;
+}
+
+.header-content img{
+    width: 16%;
+}
+/* start quetion style */
+.quetion {
+    padding-bottom: 3.5rem;
+    
+    
+} .accordion .card {
+  border-radius: 23px;
+}
+.quetion button{
+  color:#f16821;
+  text-decoration: none;
+
+}.quetion button:hover,
+.quetion button:focus{
+  color:#f16821;
+  text-decoration: none;
+}
+    /* end quetion  style*/
+    /* start how to buy style */
+        .how-to-buy{
+            background-image: url("../imgs/service-page_02.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 2.5rem;
+            color: #fff;
+            text-align: center;
+            padding-bottom: 4.5rem;
+            
+            
+        }.how-to-buy{
+            position: relative;
+        }
+        .how-to-buy h3,
+        .about h3{
+            padding: 1.2rem;
+            border-bottom: 1px solid #f16821;
+            display: inline-block;
+            z-index:2;
+            
+        }
+        .how-to-buy p,
+        .about p{
+            line-height: 2rem;
+            padding: 1.8rem;
+            
+            
+        }.how-content{
+          z-index: 2;
+        }
+        .how-to-buy .buy-overlay{
+            height: 100%;
+            width:100%;
+            position: absolute;
+            left: 0;
+            top:0;
+            background: #888;
+           z-index: 1;
+            opacity: .6;
+        }
+        .house-content{
+            padding-bottom: 3.5rem;
+        }
+ /* start light-box style */   
+        .house{
+          padding-top:1rem;
+          padding-bottom:3rem;
+        }    
+        .house img{
+          width: 22%;
+          border-radius: 23px;
+          margin-right: -.5rem;
+        } .house img:hover{
+          transform: scale(1.1);
+          transition: all .5s ease-in-out;
+        }
+     /* end light-box style */ 
+     /* end house style */
+/* start show-for-buy style */
+    .product{
+        margin-top:0rem;
+    }.product .card {
+        margin:1.5rem 1.5rem;
+        height: 31rem;
+    }
+    
+    .product .butn-link{
+        width: 95px;
+        margin: 12px auto;
+    }
+    .product .card .icon-para{
+        text-align: right;
+    }.product select,
+    .input-search select{
+        display: block;
+        margin: 1.5rem auto;
+        background: #14238e;
+        color: #fff;
+        width: 58%;
+        padding: .5rem;
+        border-radius: 27px;
+    }.pagination{
+      justify-content: center;
+      margin-top:1.5rem;
+    }.pagination .page-link{
+      color:#f16821
+    }
+    .slide-section{
+        margin-top:4.5rem;
+    }
+    .slidecontainer {
+        width: 100%; /* Width of the outside container */
+      }
+      
+      /* The slider itself */
+      .slider {
+        -webkit-appearance: none;
+        width: 100%;
+        height: 15px;
+        border-radius: 5px;  
+        background: #d3d3d3;
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+      }
+      
+      .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%; 
+        background: #f16821;
+        cursor: pointer;
+      }
+      
+      .slider::-moz-range-thumb {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #4CAF50;
+        cursor: pointer;
+      }.slidecontainer{
+          margin: 2.5rem 0;
+      }
+       .slidecontainer p{
+          text-align: right;
+      }
+/* end show-for-buy style */
+/* start degla style */
+      .input-search{
+        background: #ccc;
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+      }.input-search .input-search-content{
+        
+      }
+      .input-search select{
+        margin: .5rem auto;
+        width: 72%;
+        padding: 0.5rem 2.3rem;
+        border-radius: 27px;
+        background: #4950579e;
+        color: #fff;
+        
+      } .input-search select:focus{
+        border: none;
+      }
+      .input-search .search{
+        border-radius: 27px;
+        border: none;
+        padding: .7rem .9rem .7rem 0rem;
+        background: #fff;
+        display: block;
+        margin: .5rem auto;
+        width: 84%;
+      }
+      .input-search .search input{
+        border: none;
+      }.input-search .search i{
+        color: #4950579e;
+        float: left;
+        margin-left: .9rem;
+        margin-top: .2rem;
+
+      }.input-search .butn-search{
+        margin-top: .5rem;
+      }
+      .input-search .butn-link{
+        
+        color: #fff;
+        background: #14238c;
+        border-radius: 27px;
+        margin: 0 auto;
+        display: block;
+        width: 42%;
+        padding: .8rem 1.3rem;
+        text-align: center;
+      }.degla {
+        padding-top:2rem;
+       
+      }
+     .degla .degla-slider img{
+        height: 49rem;
+      }
+      .degla .degla-location{
+        text-align: right;
+        
+      }
+      .degla .degla-location .icon-para{
+        margin-bottom:1.1rem;
+      }
+      .degla .degla-location .icon-para p{
+        display: inline;
+        padding-right: .3rem;
+        color:#14238c;
+      }
+      .degla .degla-location .icon-para i{
+        color:#f16821;
+      }
+      .degla .degla-location .butn-link,
+      .degla .degla-location .butn-link2{
+        
+            border-radius: 23px;
+            padding: 11px;
+            display: block;
+            width: 206px;
+            background: #f16821;
+            color: #fff;
+            text-align: center;
+            margin-bottom: .5rem;
+            text-decoration: none;
+      }
+      .degla .degla-location .butn-link2{
+        background: #fff;
+        color:#14238c;
+        border:1px solid #14238c;
+       
+
+      } .degla .degla-location .butn-link:hover{
+        color:#14238c;
+        transition: all .5s ease-in-out;
+      } .degla .degla-location .butn-link2:hover{
+        color:#fff;
+        background: #14238c;
+        transition: all .5s ease-in-out;
+      }
+      .degla  .e3lan-description{
+        text-align: right;
+        padding-top: 1.5rem;
+        width: 70%;
+        width: 75%;
+        margin-right: 1.2rem;
+      }
+      .degla  .e3lan-description h3{
+        color:#14238c;
+        border-right: 3px solid #f16821;
+        padding: 1rem .8rem;
+      }
+      .degla  .e3lan-description p{
+        padding: .5rem 0;
+      }
+      /* end degla style */
+      /* start clients style */
+        .about{
+          background-image: url("../imgs/about.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 2.5rem;
+            color: #fff;
+            text-align: center;
+            padding-bottom: 4.5rem;
+        }
+        .about h3{
+          border: none;
+        }.client{
+          padding-bottom: 2rem;
+        }
+        .client .client-content{
+          border-radius: 10%;
+          box-shadow: 10px 10px 5px grey;
+          margin: 1rem 1.5rem;
+          padding-bottom: .5rem;
+        }
+        .client .client-content img{
+          width: 100%;
+          height: 60%;
+          border-radius:10%;
+        }
+        .client .client-content h4{
+          padding: .5rem .8rem;
+        }
+        .client .client-content p{
+          padding: 0 .8rem .2rem;
+        }
+         /* end clients style */

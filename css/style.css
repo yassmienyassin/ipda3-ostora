@@ -1,0 +1,319 @@
+body{
+    direction: rtl;
+    font-family: cairo;
+    
+}h2{
+    margin: 2.5rem auto;
+    color: #14238e;
+    padding: .5rem;
+    position: relative;
+    display: block;
+    text-align: center;
+
+   } h2:after{
+    content: '';
+	position: absolute;
+	top:60px;
+	left: 47%;
+	height: 3px;
+	width: 80px;
+	background: #f16821;
+} .navbar-toggler-icon i{
+    color: #fff;
+    font-size: 2rem;
+}
+/* start header */
+        .v-header{
+          padding-top:2rem;
+            display: flex;
+            align-items: center;
+            color:#fff;
+            
+        }
+        .container-flude{
+            text-align: center;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin: auto;
+        
+        }
+        .fullscreen-video-wrap{
+            position: absolute;
+            left: 0;
+            top:0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        .fullscreen-video-wrap video{
+            min-width: 100%;
+            min-height: 100%;
+        }
+        .header-overlay{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top:0;
+            background: #f16821;
+            z-index: 1;
+            opacity: .6;
+        }
+        .header-content{
+            z-index: 2;
+            width: 100%;
+        }
+        .header-content nav a{
+            color:#fff;
+            margin: 0 10px;
+        }
+        .header-content nav .a-active{
+            border-bottom: 2px solid #14238e
+        }
+        .header-content nav a:hover{
+            border-bottom: 2px solid #14238e
+        } header .header-content .butn2-link,
+        .product .butn-link,
+        .contact .contact-content form .butn-link,
+        .contact2 .contact2-content form .butn-link,
+        .about .butn-link
+        {
+            margin: 30px auto;
+            border-radius: 23px;
+            padding: 11px;
+            display: block;
+            width: 206px;
+            background: #14238e;
+            color: #fff;
+            text-align: center;
+            font-size: 20px;
+            text-decoration: none;
+        }
+      
+/* end header */
+/* start provides */
+
+.provides{
+    padding-top: 12.5rem;
+    padding-bottom: 6.5rem;
+    text-align: center;
+}
+ 
+.provides img{
+    margin: 1.5rem;
+    color: #f16821;
+    width: 40%;
+    
+    height: 8rem;
+}
+.provides h4{
+    color: #14238e;
+    padding: 0.5rem 0rem;
+}
+/* end provides */
+/* start places */
+.places-content{
+    margin: 3.5rem auto;
+    text-align: center;
+}
+    .places-content img{
+        width: 53%;
+    
+    transform: rotate(34deg);
+    border-radius: 16%;
+    }
+
+/* end places */
+/* start products */
+.product{
+    padding-top:2.5rem;
+        padding-bottom: 2.5rem;
+        margin-top:4.5rem;
+        background-image: url("../imgs/subtle-pattern-1.jpg");
+}
+.product .card{
+    cursor: pointer;
+    background: none;
+    height: 24rem;
+    border-radius: 18px;
+    margin-bottom: 2.5rem;
+    border:none;
+   
+}.front,
+.back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+  }.back{
+      background: #f16821;
+      border-radius: 18px;
+  }
+  .card:hover > .front{
+    transform: perspective(600px) rotateY(-180deg);
+  }
+  .card:hover > .back{
+    transform: perspective(600px) rotateY(0deg);
+  }
+  .product .card .back a{
+    text-align: center;
+    display: block;
+    margin: 2.5rem 0 0;
+    color: #fff;
+}
+.product .product-conten a{
+    text-decoration: none;
+}
+.product .card img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5%
+}
+.product .card .icon-para{
+    padding: 1.5rem .8rem 0rem;
+    color:#888;
+}
+.product .card .icon-para p{
+    display: inline;
+    padding-right: .3rem;
+}
+.product .card .icon-para i{
+    color:#f16821;
+}
+.front{
+    transform: perspective(600px) rotateY(0deg);
+    background: #fff;
+  }
+  .back{
+    
+    transform: perspective(600px) rotateY(180deg);
+  }
+
+/* end places */
+/* start contacts */
+
+.contact{
+    background-image: url("../imgs/contact us.gif");
+    padding-bottom: 3.5rem;
+
+}.contact .contact-content .alert-text{
+    display: none;
+    background: #fff;
+    
+}
+.contact .contact-content h3,
+.contact2 .contact2-content h3{
+    color:#fff;
+    
+    display: block;
+    text-align: center;
+    padding: 3.5rem;
+}
+.contact .contact-content form input,
+.contact2 .contact2-content form input{
+    overflow: visible;
+    display: block;
+    border-radius: 11px;
+    width: 60%;
+    height: 2.5rem;
+    border: none;
+    margin: .8rem auto;
+    padding-right: .5rem;
+}
+.contact .contact-content form textarea{
+    display: block;
+    border-radius: 11px;
+    width: 60%;
+    height: 9.5rem;
+    border: none;
+    margin: .8rem auto;
+    padding-right: .5rem;
+}.contact .btn-primary,
+.contact .btn-secondary,
+.contact2 .btn-primary
+{
+    display: block;
+    margin: 1.3rem auto;
+    padding: .7rem 4.5rem;
+    border-radius: 23px;
+    border: none;
+    background: #14238e;
+}.contact .modal-title{
+    width: 100%;
+}.contact .btn-secondary{
+    margin:.2rem 0rem;
+}
+/* end contacts */
+/* start contacts2 */
+.contact2{
+    background: #e85845;
+    padding-bottom: 3.5rem;
+}
+
+/* end contacts2 */
+/* start footer */
+footer{
+    background: linear-gradient(#d444ef,#e85845);
+    padding-top:5.5rem;
+    padding-bottom: 3.5rem;
+    color:#fff;
+    padding-bottom: 6.5rem;
+} footer .footer-content{
+    
+}
+footer .footer-content p{
+    width: 74%;
+}
+footer .footer-content ul{
+    list-style: none;
+    padding-top: 2.5rem;
+    padding-right: 30px;
+}
+footer .footer-content ul li{
+    padding:.5rem .5rem;
+}footer .footer-content ul li a:hover{
+    text-decoration:none;
+    color:#e85845;
+    transition: all .5s ease-in-out;
+
+}
+
+footer a{
+    color:#fff;
+}footer .footer-content i {
+    padding: .7rem ;
+    padding-top: 2.8rem;
+}
+footer .footer-content  a:hover{
+    transition: all .5s ease-in-out;
+    
+}
+footer .footer-content  .ins:hover{
+    color:#f443366b;
+    font-size: 1.1rem;
+}
+footer .footer-content  .face:hover{
+    color:#4153d0;
+    font-size: 1.1rem;
+}
+
+footer .footer-content  .twitter:hover{
+    color:#5087cc;
+    font-size: 1.1rem;
+}
+
+.butn-link:hover,
+.btn-primary:hover,
+.btn-secondary:hover,
+.butn2-link:hover{
+    transition: all .5s ease-in-out;
+    color:#e85845;
+}
+
+
+
+
+
+
